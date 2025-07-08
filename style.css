@@ -66,9 +66,21 @@ section {
 
 .logo {
     height: 20px;
-    margin: 0 100px;
+    margin: 0 40px;
     filter: grayscale(100%);
     transition: all 0.3s ease-in-out;
+}
+
+#logo-banner {
+    padding: 1rem 0;
+}
+
+.social-icons a {
+    color: #007bff;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
 }
 
 .logo:hover {
