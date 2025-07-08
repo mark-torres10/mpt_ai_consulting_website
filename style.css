@@ -65,14 +65,14 @@ section {
 }
 
 .logo {
-    height: 0.625px;
+    height: 1.875px;
     margin: 0 1.25px;
     filter: grayscale(100%);
     transition: all 0.3s ease-in-out;
 }
 
 #logo-banner {
-    padding: 0.5rem 0;
+    padding: 1.5rem 0;
 }
 
 .social-icons a {
