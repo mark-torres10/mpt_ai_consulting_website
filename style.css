@@ -63,3 +63,14 @@ section {
 .fa-3x {
     color: #007bff;
 }
+
+.logo {
+    height: 50px;
+    margin: 0 20px;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {
+    filter: grayscale(0%);
+}
