@@ -49,3 +49,11 @@ section {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+
+.bg-light-blue {
+    background-color: #eaf4ff;
+}
+
+.fa-3x {
+    color: #007bff;
+}
