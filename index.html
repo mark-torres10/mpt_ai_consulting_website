@@ -911,6 +911,27 @@
                 floatingCta.style.display = 'none';
             }
         });
+        
+        // Demo functionality
+        function openDemo(demoType) {
+            // In a real implementation, this would open actual demo links
+            // For now, we'll show an alert and scroll to contact
+            const demoNames = {
+                'customer-service': 'Smart Customer Service Agent',
+                'lead-qualifier': 'Sales Lead Qualifier',
+                'document-processing': 'Document Processing Agent',
+                'email-optimizer': 'Email Marketing Optimizer',
+                'workflow-hub': 'Workflow Automation Hub',
+                'data-analyzer': 'Smart Data Analyzer'
+            };
+            
+            alert(`Opening ${demoNames[demoType]} demo...\n\nIn the live version, this would open an interactive demo of the AI agent. Contact us to schedule a personalized demo with your own data!`);
+            
+            // Scroll to contact section
+            document.querySelector('#contact').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
     </script>
 </body>
 </html>

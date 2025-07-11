@@ -8,6 +8,10 @@ header {
     background-color: #eaf4ff; /* Light blue */
 }
 
+.bg-light-blue {
+    background-color: #eaf4ff; /* Light blue */
+}
+
 .hero-section {
     background: linear-gradient(135deg, #eaf4ff 0%, #ffffff 100%);
     padding: 6rem 0 4rem 0;
